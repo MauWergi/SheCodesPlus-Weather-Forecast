@@ -102,8 +102,7 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 28px;
-  text-align: center;
+  width: 100%;
 }
 
 .weather-forecast-temps {
@@ -111,11 +110,11 @@ main {
   text-align: center;
   margin-top: 10px;
   color: #f65289;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .weather-forecast-high .weather-forecast-low {
-  padding: 0 10px;
+  padding: 10px;
 }
 
 .weather-forecast-high {
